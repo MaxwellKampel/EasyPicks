@@ -1,0 +1,210 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Prototype Css */
+.MatchUp{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.MatchUp > img {
+  width: 100px;
+}
+
+h1 {
+  color: #FEFFEA;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 40px;
+  height: 40px;
+
+}
+
+.logoBlock {
+  display: flex;
+}
+
+.sportListing {
+  margin: 5px auto;
+  justify-content: space-around;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sportBlock {
+  margin: 4px;
+  border: 1px solid #107c10;
+  border-radius: 8px;
+
+}
+
+table,
+th,
+td {
+  border-spacing: 0px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 25px;
+  border-top: 1px dotted white;
+}
+
+.footNav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footNav>li {
+  padding: 3px;
+}
+
+.navButton {
+  text-decoration: none;
+  color: ivory;
+  background-color: #1a1a1a;
+  /* padding: 10px 15px; */
+  padding: 0.6em 1.2em;
+  font-size: .9em;
+  border-radius: 0px 0px 8px 8px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  max-width: 50px;
+  margin: 10px;
+}
+
+.heroImage {
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+}
+
+.heroImage>img {
+  width: 80%;
+  height: 120px;
+  opacity: 45%;
+  /* clip-path: inset(10px 0px 100px 0 round 16px); */
+  object-fit: cover;
+  object-position: 55%;
+  transform: scale(1.25);
+  border-radius: 20px;
+
+
+}
+
+.heroImage>h1 {
+  position: absolute;
+  width: 60%;
+  top: 120px;
+  left: 20%;
+}
+
+h4 {
+  margin: 15px auto;
+  width: 80%;
+  padding: 5px;
+}
+
+.VictoryContainer {
+  max-height: 175px;
+}
+
+.graphStat {
+  margin-top: 25px;
+  border-bottom: 1px dotted ivory;
+}
+
+.gameTable {
+  width: 80%;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.gameTable * {
+  font-size: 16px;
+  max-width: 250px;
+  padding: 5px 7px !important;
+}
+
+h3 {
+  background-color: rgba(254, 255, 234, 0.8);
+  color: #242424;
+  border-radius: 8px;
+}
+
+.Stats{
+  margin-top: 50px;
+}
